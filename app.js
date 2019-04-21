@@ -17,7 +17,7 @@ campgroundRoutes = require("./routes/campgrounds"),
 indexRoutes = require("./routes/index");
 
 // App Config
-mongoose.connect("mongodb+srv://leslieo:<Orepiro21lo%21>@cluster0-f7fcu.mongodb.net/test?retryWrites=true", {useNewUrlParser: true});
+mongoose.connect("mongodb+srv://leslieo:<orepiro21lo>@cluster0-f7fcu.mongodb.net/test?retryWrites=true", {useNewUrlParser: true});
 // mongoose.connect("mongodb://localhost:27017/yelpcamp", {useNewUrlParser: true});
 mongoose.set('useFindAndModify', false);
 app.use(bodyParser.urlencoded({extended: true}));
