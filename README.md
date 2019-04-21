@@ -1,4 +1,9 @@
-## Built with
+## Live Deploy
+
+Deployed with [Heroku](https://www.heroku.com/).
+If you'd like to preview the live version, please click [here](https://ycamp33.herokuapp.com/). 
+
+## This Project Was Built With the Following:
 
 ### Front-end
 
@@ -10,6 +15,7 @@
 * [express](https://expressjs.com/)
 * [mongoDB](https://www.mongodb.com/)
 * [mongoose](http://mongoosejs.com/)
+* [mongoDB Atlas](https://www.mongodb.com/cloud/atlas)
 * [passport](http://www.passportjs.org/)
 * [passport-local](https://github.com/jaredhanson/passport-local#passport-local)
 * [express-session](https://github.com/expressjs/session#express-session)
@@ -17,11 +23,11 @@
 * [moment](https://momentjs.com/)
 * [connect-flash](https://github.com/jaredhanson/connect-flash#connect-flash)
 
-## Features
+## App Features
 
-* Responsive web design
+* Responsive web design with [Bootstrap 4](https://getbootstrap.com/docs/4.3/getting-started/introduction/)
 
-* Manage campground posts with basic functionalities:
+* Manage campground posts with basic CRUD functionalities:
 
   * Create, edit and delete campground posts 
   * Create, edit and delete comments
